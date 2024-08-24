@@ -1,0 +1,57 @@
+<header>
+  <nav class="nav-bar">
+    <div class="logo">
+      <img src="assets/images/logo_unifil.png" alt="imagem aqui" />
+    </div>
+    <div class="nav-list">
+      <ul>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/inicial">Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/quem-somos"
+            >Quem somos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/turmas"
+            >Turmas Atuais</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/feedback">Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/mural">Mural</a>
+        </li>
+        <li class="nav-item">
+          <a class="na-link" href="http://localhost:4200/contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu-icon">
+      <button (click)="showMenu()">
+        <img
+          [src]="
+            isMenuOpen
+              ? 'imgs/close_white_36dp.svg'
+              : 'imgs/menu_white_36dp.svg'
+          "
+          alt="botao do menu"
+          class="icon"
+        />
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" [class.open]="isMenuOpen">
+    <ul class="ul-open">
+      <li class="nav-item"><a class="na-link" href="#">Quem somos</a></li>
+      <li class="nav-item"><a class="na-link" href="#">Turmas Atuais</a></li>
+      <li class="nav-item"><a class="na-link" href="#">Feedback</a></li>
+      <li class="nav-item"><a class="na-link" href="#">Mural</a></li>
+      <li class="nav-item"><a class="na-link" href="#">Contato</a></li>
+    </ul>
+  </div>
+</header>
