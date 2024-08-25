@@ -1,9 +1,14 @@
 /* footer.component.css */
 .footer {
-    background-color: black;
+    background-color: rgb(149, 142, 142);
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
+    width: 95%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .footer-content {
@@ -64,6 +69,10 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
+    .footer{
+        width: 100%;
+    }
+
     .footer-content {
         flex-direction: column; /* Alinha os itens verticalmente em telas menores */
         text-align: center;

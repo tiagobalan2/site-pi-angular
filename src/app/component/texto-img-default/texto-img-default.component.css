@@ -1,0 +1,37 @@
+.container1 {
+    max-width: 2000px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+}
+
+.texto {
+    width: 40%;
+    padding: 15px; /* Adds some padding around the text */
+}
+
+.imagem {
+    width: 40%;
+    text-align: center; /* Centers the image */
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .texto, .imagem {
+        width: 100%; /* Full width on smaller screens */
+        padding: 0; /* Adjust padding if necessary */
+    }
+}

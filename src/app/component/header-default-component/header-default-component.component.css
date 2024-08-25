@@ -1,6 +1,6 @@
 /* header.component.css */
 header {
-    background-color: whitesmoke;
+    background-color: orange;
     box-shadow: 0px 3px 10px black;
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    color: black;
+    color: white;
     margin: 0; /* Remove margens extras */
 }
 
@@ -41,7 +41,7 @@ ul {
 /* estilizando o link a*/
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5rem;
 }
 
