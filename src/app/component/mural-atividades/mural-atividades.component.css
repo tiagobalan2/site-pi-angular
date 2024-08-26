@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     margin: auto;
-    padding: 20px;
-    background-color: #ECEFF1;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 10px;
 }
 
 @media (max-width: 1024px) {
