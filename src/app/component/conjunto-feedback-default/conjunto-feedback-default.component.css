@@ -1,6 +1,7 @@
 .container{
     display: grid;
     max-width: 1000px;
+    width: 80%;
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     margin: auto;
     padding: 15px;

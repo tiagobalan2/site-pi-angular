@@ -1,0 +1,56 @@
+.event-calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.event-calendar h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event-date {
+    background-color: #ff9800;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-date .event-day {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-date .event-month {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-details p {
+    margin: 0;
+    color: #555;
+    font-size: 0.9rem;
+}

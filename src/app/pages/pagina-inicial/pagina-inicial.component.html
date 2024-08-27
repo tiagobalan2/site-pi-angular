@@ -3,24 +3,30 @@
 
 <!--corpo da página-->
 
+<app-retangulo-vermelho></app-retangulo-vermelho>
+
 <app-texto-img-default
   titulo="Pensamento Computacional"
   p="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, architecto. Tempore aperiam minus ex, id maxime quibusdam alias nihil ducimus quasi vero exercitationem optio possimus eius, placeat est non tenetur."
   imagemSrc="assets/images/logo_unifil.png"
   altText="Logo Unifil"
+  textoBotao="acessar grade do conteúdo do curso"
 >
 </app-texto-img-default>
-<<<<<<< HEAD
 <div class="div-painel-aviso">
   <app-painel-avisos></app-painel-avisos>
-<h1>Atividades em destaque</h1>
-<app-mural-atividades class="div-mural-atividades"></app-mural-atividades>
+  <h1>Atividades em destaque na semana</h1>
+  <app-mural-atividades class="div-mural-atividades"></app-mural-atividades>
 </div>
-=======
-<app-painel-avisos></app-painel-avisos>
-<h1>Atividades em destaque da semana</h1>
-<app-mural-atividades></app-mural-atividades>
->>>>>>> 12bd826e215a7a26ca45c4e4026830e26057d3fe
+
+<div class="flex-meio-a-meio">
+  <div class="container1">
+    <app-calendario></app-calendario>
+  </div>
+  <div class="container2">
+    <app-acesso-site-unifil></app-acesso-site-unifil>
+  </div>
+</div>
 
 <!--footer-->
 <app-footer-default-component></app-footer-default-component>

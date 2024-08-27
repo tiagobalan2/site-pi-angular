@@ -12,6 +12,7 @@ export class TextoImgDefaultComponent {
   @Input() titulo: string = '';
   @Input() p: string = '';
   @Input() imagemSrc: string = '';
-  @Input() altText: string = 'Image'; // Default alt text
+  @Input() altText: string = 'Image'; // Default alt texto
+  @Input() textoBotao: string = "";
 
 }
