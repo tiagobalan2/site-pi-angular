@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    max-width: 900px;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    margin: auto;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}

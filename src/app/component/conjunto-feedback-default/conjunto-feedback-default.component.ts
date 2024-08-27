@@ -5,7 +5,8 @@ import { FeedbackDefaultComponent } from '../feedback-default/feedback-default.c
   selector: 'app-conjunto-feedback-default',
   standalone: true,
   imports: [
-    FeedbackDefaultComponent
+    FeedbackDefaultComponent,
+    
   ],
   templateUrl: './conjunto-feedback-default.component.html',
   styleUrl: './conjunto-feedback-default.component.css'

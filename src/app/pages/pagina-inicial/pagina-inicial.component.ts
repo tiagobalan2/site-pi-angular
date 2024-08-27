@@ -7,6 +7,8 @@ import { ConjuntoFeedbackDefaultComponent } from '../../component/conjunto-feedb
 import { MuralAtividadesComponent } from '../../component/mural-atividades/mural-atividades.component';
 import { FormularioDefaultComponent } from '../../component/formulario-default/formulario-default.component';
 import { PainelAvisosComponent } from '../../component/painel-avisos/painel-avisos.component';
+import { ConjuntoaAtividadeDefaultComponent } from '../../component/conjuntoa-atividade-default/conjuntoa-atividade-default.component';
+import { RetanguloVermelhoComponent } from '../../component/retangulo-vermelho/retangulo-vermelho.component';
 
 @Component({
   selector: 'app-pagina-inicial',
@@ -19,7 +21,9 @@ import { PainelAvisosComponent } from '../../component/painel-avisos/painel-avis
     ConjuntoFeedbackDefaultComponent,
     MuralAtividadesComponent,
     FormularioDefaultComponent,
-    PainelAvisosComponent
+    PainelAvisosComponent,
+    ConjuntoaAtividadeDefaultComponent,
+    RetanguloVermelhoComponent
     
   ],
   templateUrl: './pagina-inicial.component.html',

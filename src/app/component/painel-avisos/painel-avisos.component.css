@@ -1,6 +1,11 @@
 
   .container {
+<<<<<<< HEAD
     margin: 20px auto; /* Centraliza o painel horizontalmente */
+=======
+    max-width: 800px; /* Largura máxima para o painel */
+    margin: 50px auto; /* Centraliza o painel horizontalmente */
+>>>>>>> 12bd826e215a7a26ca45c4e4026830e26057d3fe
     padding: 20px;
     background-color: #fff; /* Cor de fundo do painel */
     border-radius: 8px; /* Bordas arredondadas do painel */

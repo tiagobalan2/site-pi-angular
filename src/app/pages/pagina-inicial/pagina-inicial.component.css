@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+<<<<<<< HEAD
     margin: 10px;
 }
 .div-painel-aviso{
@@ -12,3 +13,7 @@ h1{
 app-painel-avisos, div-mural-atividades{
   width: 80%;
 }
+=======
+    margin: 100px 30px 10px 30px; 
+}
+>>>>>>> 12bd826e215a7a26ca45c4e4026830e26057d3fe
