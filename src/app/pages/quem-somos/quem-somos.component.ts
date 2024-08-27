@@ -3,6 +3,7 @@ import { FooterDefaultComponentComponent } from '../../component/footer-default-
 import { HeaderDefaultComponentComponent } from '../../component/header-default-component/header-default-component.component';
 import { TextoImgDefaultComponent } from '../../component/texto-img-default/texto-img-default.component';
 import { ConjuntoFeedbackDefaultComponent } from '../../component/conjunto-feedback-default/conjunto-feedback-default.component';
+import { RetanguloVermelhoComponent } from '../../component/retangulo-vermelho/retangulo-vermelho.component';
 
 @Component({
   selector: 'app-quem-somos',
@@ -11,7 +12,8 @@ import { ConjuntoFeedbackDefaultComponent } from '../../component/conjunto-feedb
     HeaderDefaultComponentComponent,
     FooterDefaultComponentComponent,
     TextoImgDefaultComponent,
-    ConjuntoFeedbackDefaultComponent
+    ConjuntoFeedbackDefaultComponent,
+    RetanguloVermelhoComponent
 
   ],
   templateUrl: './quem-somos.component.html',

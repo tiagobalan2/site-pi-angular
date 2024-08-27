@@ -8,6 +8,7 @@ import { MuralAtividadesComponent } from '../../component/mural-atividades/mural
 import { FormularioDefaultComponent } from '../../component/formulario-default/formulario-default.component';
 import { PainelAvisosComponent } from '../../component/painel-avisos/painel-avisos.component';
 import { ConjuntoaAtividadeDefaultComponent } from '../../component/conjuntoa-atividade-default/conjuntoa-atividade-default.component';
+import { RetanguloVermelhoComponent } from '../../component/retangulo-vermelho/retangulo-vermelho.component';
 
 @Component({
   selector: 'app-pagina-inicial',
@@ -21,7 +22,8 @@ import { ConjuntoaAtividadeDefaultComponent } from '../../component/conjuntoa-at
     MuralAtividadesComponent,
     FormularioDefaultComponent,
     PainelAvisosComponent,
-    ConjuntoaAtividadeDefaultComponent
+    ConjuntoaAtividadeDefaultComponent,
+    RetanguloVermelhoComponent
     
   ],
   templateUrl: './pagina-inicial.component.html',
