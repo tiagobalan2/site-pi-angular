@@ -1,35 +1,33 @@
 
   .container {
-    max-width: 800px; /* Largura máxima para o painel */
     margin: 20px auto; /* Centraliza o painel horizontalmente */
     padding: 20px;
     background-color: #fff; /* Cor de fundo do painel */
     border-radius: 8px; /* Bordas arredondadas do painel */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
   }
-  
+
   .card-aviso {
     padding: 15px;
     border-bottom: 1px solid #ddd; /* Linha de separação */
     margin-bottom: 10px; /* Espaçamento entre os avisos */
   }
-  
+
   .card-aviso:last-child {
     border-bottom: none; /* Remove a linha no último aviso */
   }
-  
+
   .card-aviso h1 {
     font-size: 1.25rem;
     margin: 0 0 10px 0;
     color: #333;
   }
-  
+
   .card-aviso p {
     margin: 5px 0;
     color: #666;
   }
-  
+
   .card-aviso p:last-child {
     font-style: italic; /* Estilo para a data */
   }
-  

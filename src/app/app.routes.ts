@@ -29,6 +29,9 @@ export const routes: Routes = [
     }, {
         path: "turmas",
         component: TurmasComponent
+    },
+    {
+        path:"**",
+        redirectTo:"inicial", pathMatch: "full"
     }
-
 ];

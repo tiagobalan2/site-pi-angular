@@ -3,7 +3,6 @@
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     margin: auto;
     background-color: white;
-    max-width: 1000px;
     border-radius: 10px;
 }
 

@@ -2,3 +2,13 @@ h1{
     text-align: center;
     margin: 10px;
 }
+.div-painel-aviso{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+app-painel-avisos, div-mural-atividades{
+  width: 80%;
+}
