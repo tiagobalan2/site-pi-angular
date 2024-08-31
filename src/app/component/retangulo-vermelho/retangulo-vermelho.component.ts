@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { TextoImgDefaultComponent } from '../texto-img-default/texto-img-default.component';
 
 @Component({
@@ -11,5 +11,6 @@ import { TextoImgDefaultComponent } from '../texto-img-default/texto-img-default
   styleUrl: './retangulo-vermelho.component.css'
 })
 export class RetanguloVermelhoComponent {
-
+  @Input() imageSrc: string = '';  // URL da imagem
+  @Input() altText: string = '';   // Texto alternativo para a imagem
 }
