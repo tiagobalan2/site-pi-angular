@@ -52,3 +52,8 @@ export class LoginComponent {
 }
 
 // quando implementar o backend testar se o toastr esta funcionando
+
+// ainda não sei como vou fazer a parte das telas do admin,
+// por exemplo, vai ter la o crud para ele gerenciar os avisos, quando ele registrar ou excluir um aviso novo
+// o painel de avisos vai ter que ser atualizado também, pensar em como fazer isso
+
