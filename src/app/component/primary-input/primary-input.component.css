@@ -15,6 +15,7 @@ input {
     font-size: 16px;
     outline: none;
     transition: border-color 0.3s ease;
+    font-family: arial;
 }
 
 input:focus {
@@ -26,6 +27,7 @@ input:not(:placeholder-shown) ~ label {
     top: -20px;
     font-size: 13px;
     color: #666;
+    font-family: arial;
 }
 
 label {
@@ -36,4 +38,5 @@ label {
     color: #aaa;
     transition: all 0.3s ease;
     pointer-events: none;
+    font-family: arial;
 }
