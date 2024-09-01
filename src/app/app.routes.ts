@@ -5,6 +5,7 @@ import { FeedbackComponent } from './pages/feedback/feedback.component';
 import { MuralComponent } from './pages/mural/mural.component';
 import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
 import { TurmasComponent } from './pages/turmas/turmas.component';
+import { LoginComponent } from './pages/login/login.component';
 
 export const routes: Routes = [
     {
@@ -31,7 +32,12 @@ export const routes: Routes = [
         component: TurmasComponent
     },
     {
+        path: "admin",
+        component: LoginComponent
+    },
+    {
         path:"**",
         redirectTo:"inicial", pathMatch: "full"
     }
+
 ];
