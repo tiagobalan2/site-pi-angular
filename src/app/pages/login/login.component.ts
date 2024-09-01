@@ -12,7 +12,6 @@ interface LoginForm {
   password: FormControl
 }
 
-
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -50,6 +49,6 @@ export class LoginComponent {
       error: () => this.toastService.error("Erro, usuario ou senha inválidos")
     })
   }
-
- 
 }
+
+// quando implementar o backend testar se o toastr esta funcionando
