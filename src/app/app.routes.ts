@@ -6,6 +6,7 @@ import { MuralComponent } from './pages/mural/mural.component';
 import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
 import { TurmasComponent } from './pages/turmas/turmas.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ExplicacaoComponent } from './pages/explicacao/explicacao.component';
 
 export const routes: Routes = [
     {
@@ -28,8 +29,8 @@ export const routes: Routes = [
         path: "quem-somos",
         component: QuemSomosComponent
     }, {
-        path: "turmas",
-        component: TurmasComponent
+        path: "explicacao",
+        component: ExplicacaoComponent
     },
     {
         path: "admin",

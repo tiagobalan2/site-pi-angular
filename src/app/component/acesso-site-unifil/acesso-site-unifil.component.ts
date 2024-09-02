@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-acesso-site-unifil',
@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './acesso-site-unifil.component.css'
 })
 export class AcessoSiteUnifilComponent {
+
+  @Input() titulo: string = '';
+  @Input() imagemSrc: string = '';
+  @Input() altText: string = 'Image'; // Default alt texto
 
 }
