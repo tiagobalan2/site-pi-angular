@@ -1,0 +1,51 @@
+.container {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite quebra de linha em telas menores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Garante que o conteúdo permaneça dentro do contêiner */
+}
+
+.prof {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, e largura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+}
+
+.descricao {
+    flex: 2 1 300px; /* Ajusta a proporção da descrição */
+    padding: 12px;
+    text-align: center;
+    word-wrap: break-word; /* Quebra palavras longas para evitar overflow */
+    overflow: hidden; /* Garante que o texto permaneça dentro do contêiner */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        max-width: 90%; /* Ajusta a largura máxima para telas menores */
+    }
+
+    .prof, .descricao {
+        width: 100%;
+    }
+}

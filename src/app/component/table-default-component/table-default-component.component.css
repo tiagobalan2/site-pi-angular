@@ -1,0 +1,70 @@
+.table-container {
+    max-width: 75%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: orange;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    .table-container {
+        padding: 10px;
+        overflow-x: auto; /* Permite rolagem horizontal para telas menores */
+    }
+
+    table {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+
+    th, td {
+        padding: 8px 10px; /* Ajusta o espaçamento interno */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    thead {
+        display: none; /* Esconde o cabeçalho da tabela */
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 10px;
+        border-bottom: 1px solid #ddd;
+        overflow: hidden; /* Mantém o conteúdo ajustado no celular */
+    }
+
+    td::before {
+        font-weight: bold;
+        margin-right: 10px;
+        color: #007bff;
+        text-align: center; /* Centraliza o texto dos títulos */
+    }
+}

@@ -11,6 +11,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .lista-professores{
@@ -36,5 +42,6 @@
 @media (max-width: 768px) {
     .container{
         max-width: 90%;
+        padding: 20px;
     }
 }
