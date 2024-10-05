@@ -1,16 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Aviso } from '../../types/aviso.type';
 import { AvisoService } from '../../servicess/aviso.service';
+import { CommonModule } from '@angular/common'; // Importe o CommonModule
+
 
 @Component({
   selector: 'app-tabela-de-avisos',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './tabela-de-avisos.component.html',
   styleUrl: './tabela-de-avisos.component.css'
 })
 export class TabelaDeAvisosComponent implements OnInit{
-  avisos : Aviso[] = [];
+  @Input() avisos: Aviso[] = [];
 
   constructor(private avisoService: AvisoService){
 

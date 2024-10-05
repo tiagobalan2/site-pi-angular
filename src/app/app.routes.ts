@@ -7,6 +7,7 @@ import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
 import { TurmasComponent } from './pages/turmas/turmas.component';
 import { LoginComponent } from './pages/login/login.component';
 import { ExplicacaoComponent } from './pages/explicacao/explicacao.component';
+import { AdminGuard } from './guards/admin.guard';
 
 export const routes: Routes = [
     {
@@ -34,7 +35,7 @@ export const routes: Routes = [
     },
     {
         path: "admin",
-        component: LoginComponent
+        component: LoginComponent, canActivate: [AdminGuard]
     },
     {
         path:"**",

@@ -11,6 +11,7 @@ import { ConjuntoaAtividadeDefaultComponent } from '../../component/conjuntoa-at
 import { RetanguloVermelhoComponent } from '../../component/retangulo-vermelho/retangulo-vermelho.component';
 import { CalendarioComponent } from '../../component/calendario/calendario.component';
 import { AcessoSiteUnifilComponent } from '../../component/acesso-site-unifil/acesso-site-unifil.component';
+import { TabelaDeAvisosComponent } from '../../component/tabela-de-avisos/tabela-de-avisos.component';
 
 @Component({
   selector: 'app-pagina-inicial',
@@ -27,7 +28,8 @@ import { AcessoSiteUnifilComponent } from '../../component/acesso-site-unifil/ac
     ConjuntoaAtividadeDefaultComponent,
     RetanguloVermelhoComponent,
     CalendarioComponent,
-    AcessoSiteUnifilComponent
+    AcessoSiteUnifilComponent,
+    TabelaDeAvisosComponent
     
   ],
   templateUrl: './pagina-inicial.component.html',

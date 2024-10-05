@@ -22,4 +22,12 @@ export class AuthGuardService implements CanActivate{
       return false;
     }
   }
+
+  isUserAdmin(): boolean {
+    if (typeof window !== 'undefined') {
+        const userRole = sessionStorage.getItem('userRole'); // ou a forma que você armazena a role
+        return userRole === 'ADMIN'; // ajuste conforme necessário
+    }
+    return false; // Retorna false se não estiver no navegador
+}
 }
