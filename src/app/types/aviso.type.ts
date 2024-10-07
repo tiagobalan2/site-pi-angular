@@ -1,5 +1,11 @@
+import { LoginComponent } from "../pages/login/login.component";
+
 export interface Aviso {
-    id: string; // mudar se no back for inteiro e nao string
+    id: number; // mudar se no back for inteiro e nao string
     // resto dos atributos
-    campo: string;
+    tituloAvisoString: string;
+    conteudoAviso: string;
+    dataCriacaoAviso: string;
+    dataEnvioAviso: string;
+    criadorAviso: string;
   }

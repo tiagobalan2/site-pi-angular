@@ -2,11 +2,12 @@
 <table>
   <tbody>
     <tr *ngFor="let aviso of avisos">
-      <td>{{ aviso.campo }}</td>
-      <td>{{ aviso.campo }}</td>
-      <td>{{ aviso.campo }}</td>
-      <td>{{ aviso.campo }}</td>
-      <td>{{ aviso.campo }}</td>
+      <td>{{ aviso.id }}</td>
+      <td>{{ aviso.tituloAvisoString }}</td>
+      <td>{{ aviso.conteudoAviso }}</td>
+      <td>{{ aviso.dataCriacaoAviso }}</td>
+      <td>{{ aviso.dataEnvioAviso }}</td>
+      <td>{{ aviso.criadorAviso }}</td>
     </tr>
   </tbody>
 </table>
