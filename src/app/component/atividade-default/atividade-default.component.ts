@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-atividade-default',
@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './atividade-default.component.css'
 })
 export class AtividadeDefaultComponent {
+
+  @Input() titulo : string = "";
+  @Input() descricao : string = "";
 
 }
