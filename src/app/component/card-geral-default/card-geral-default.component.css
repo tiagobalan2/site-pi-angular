@@ -1,14 +1,15 @@
 .card-container{
-    max-width: 200px;
+    
     height: auto;
-    padding: 10px;
-    background-color: white;
+    padding: 1px;
+    background-color: orange;
     border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .card-interno{
     padding: 30px;
-    background-color: orange;
+    background-color: white;
     border-radius: 10px;
 }
 

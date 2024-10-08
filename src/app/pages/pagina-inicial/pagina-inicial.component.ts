@@ -12,6 +12,10 @@ import { RetanguloVermelhoComponent } from '../../component/retangulo-vermelho/r
 import { CalendarioComponent } from '../../component/calendario/calendario.component';
 import { AcessoSiteUnifilComponent } from '../../component/acesso-site-unifil/acesso-site-unifil.component';
 import { TabelaDeAvisosComponent } from '../../component/tabela-de-avisos/tabela-de-avisos.component';
+import { ContainerFotosComponent } from '../../component/container-fotos/container-fotos.component';
+import { TableDefaultComponentComponent } from '../../component/table-default-component/table-default-component.component';
+import { ExplicacaoComponent } from '../explicacao/explicacao.component';
+import { ContainerCardsDefaultComponent } from '../../component/container-cards-default/container-cards-default.component';
 
 @Component({
   selector: 'app-pagina-inicial',
@@ -29,7 +33,10 @@ import { TabelaDeAvisosComponent } from '../../component/tabela-de-avisos/tabela
     RetanguloVermelhoComponent,
     CalendarioComponent,
     AcessoSiteUnifilComponent,
-    TabelaDeAvisosComponent
+    TabelaDeAvisosComponent,
+    ContainerFotosComponent,
+    TableDefaultComponentComponent,
+    ContainerCardsDefaultComponent
     
   ],
   templateUrl: './pagina-inicial.component.html',

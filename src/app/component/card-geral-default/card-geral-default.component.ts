@@ -11,7 +11,7 @@ export class CardGeralDefaultComponent {
 
   @Input() titulo: string = "";
   @Input() descricao: string = "";
-  @Input() btnText: string = "";
+  @Input() imgSrc: string = "";
 
   
 }
