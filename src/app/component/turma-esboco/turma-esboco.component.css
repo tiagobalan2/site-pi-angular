@@ -4,7 +4,14 @@
     background-color: white;
     padding: 40px;
     border-radius: 10px;
+    
 }
+.container h3, h4{
+    color: rgb(169, 115, 57);
+    text-shadow:3px 3px 5px rgba(0, 0, 0, 0.5);
+ 
+}
+
 
 .container-img{
     display: flex;
@@ -17,13 +24,27 @@
 img{
     width: 100%;
     margin-bottom: 40px;
+    animation: desfocar 6s ease-out forwards;
 }
 
+@keyframes desfocar {
+    0% {
+        filter: blur(10px);  /* Início da animação com a imagem desfocada */
+        opacity: 0;  /* Começa invisível */
+    }
+    100% {
+        filter: blur(0);  /* Fim da animação, sem desfoque */
+        opacity: 1;  /* Torna-se completamente visível */
+    }
+}
 .lista-professores{
     padding: 50px 0px;
     
     li{
         margin: 20px 0px;
+    }
+    ul{
+        list-style: none;
     }
 }
 
@@ -32,6 +53,7 @@ img{
 
     ul{
         padding: 10px;
+        list-style: none;
     }
 
     li{

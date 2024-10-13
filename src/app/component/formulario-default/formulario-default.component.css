@@ -1,6 +1,6 @@
 
   .contato {
-    background-color: #f9f9f9;
+    background-color: #807972;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -13,30 +13,45 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
+  .contato:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
   .contato h2 {
     text-align: center;
     margin-bottom: 20px;
+    
   }
   
   .info {
     margin-bottom: 20px;
+    text-align: center;
+    
   }
   
   .info h3 {
     font-size: 1.2rem;
     margin-bottom: 5px;
-    color: #333;
+    color: #ce8209f2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    
   }
   
   .info p {
     margin: 0;
-    color: #555;
+    color: #131111;
+
+   
   }
   
   .info a {
-    color: #007bff;
+    color: #050505;
     text-decoration: none;
   }
   
