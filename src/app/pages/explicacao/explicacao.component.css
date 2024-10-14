@@ -3,12 +3,37 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.0rem;
     padding: 50px;
+    color: rgb(124, 78, 0);
+    filter: blur(10px); /* Começa desfocado */
+  animation: appearAndFocus 2s ease forwards;
 }
 
-
+@keyframes appearAndFocus {
+    0% {
+      opacity: 0; /* Começa invisível */
+      filter: blur(10px); /* Totalmente desfocado */
+    }
+    100% {
+      opacity: 1; /* Torna-se totalmente visível */
+      filter: blur(0); /* Fica nítido */
+    }
+  }
 
 .container-monitores{
-    max-width: 2000px;
+    max-width: 700px;
     margin: auto;
     padding: 20px;
+    text-align: justify;
+    background-color: rgba(218, 189, 146, 0.532);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #807972;
+    box-sizing: border-box;
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+    margin-top: 98px;
+}
+
+.container-monitores:hover{
+    transform: translateY(-10px);
 }

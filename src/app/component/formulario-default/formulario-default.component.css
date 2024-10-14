@@ -5,5 +5,14 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align: center;
+  
 }
 
+.container a {
+  color: rgba(192, 116, 16, 0.905);
+}
+
+.container h1, h3{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}

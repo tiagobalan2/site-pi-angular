@@ -80,6 +80,7 @@ app-painel-avisos, div-mural-atividades{
 .desPensamento{
   margin: auto;
   display: flex;
+  
 }
 
 @media(max-width: 1024px) {
