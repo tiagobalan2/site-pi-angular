@@ -18,6 +18,10 @@ header {
     align-items: center;
     width: max-content;
 }
+
+.na-link{
+    font-size: 16px;
+}
 .img-logo{
   width: 35%;
 }

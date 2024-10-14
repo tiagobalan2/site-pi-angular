@@ -1,14 +1,13 @@
 .card-container{
-    
-    height: auto;
     padding: 1px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 1px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 400px;
 }
 
 .card-container:hover {
-    transform: scale(1.05) translateX(10px) translateY(-10px); 
+    transform: scale(1.02) translateX(1px) translateY(-1px); 
     box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.3); 
 }
 
@@ -23,12 +22,15 @@ h1{
     font-family: arial;
     font-size: 1.6rem;
     color: black;
+    
 }
 
 p{
     text-align: center;
     color: black;
     font-size: 1.3rem;
+    min-height: 130px;
+    
 }
 
 button{
@@ -40,4 +42,9 @@ button{
     border: 1px solid grey;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }

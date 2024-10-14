@@ -17,7 +17,7 @@ app-painel-avisos, div-mural-atividades{
 .flex-meio-a-meio{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 95%;
   max-width: 2000px;
   margin: 100px auto;
@@ -73,5 +73,17 @@ app-painel-avisos, div-mural-atividades{
   .container2{
     width: 100%;
     margin: 10px;
+  }
+}
+
+
+.desPensamento{
+  margin: auto;
+  display: flex;
+}
+
+@media(max-width: 1024px) {
+  .desPensamento{
+    flex-direction: column;
   }
 }
