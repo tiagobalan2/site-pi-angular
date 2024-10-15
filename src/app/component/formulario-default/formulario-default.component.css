@@ -6,13 +6,15 @@
   flex-direction: column;
   gap: 20px;
   text-align: center;
+  background-color:#f1651fef;
   
 }
 
 .container a {
-  color: rgba(192, 116, 16, 0.905);
+  color: rgb(60, 57, 57);
 }
 
-.container h1, h3{
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+.container h1, h3, p{
+  text-shadow: 2px 2px 9px rgb(168, 163, 163);
 }
+
