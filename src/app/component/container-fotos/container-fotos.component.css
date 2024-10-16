@@ -2,26 +2,28 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colunas para desktop */
   }
-  
+
   .container {
     padding: 20px;
     max-width: 1400px;
     margin: auto;
   }
-  
+
   .project-card {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     cursor: pointer;
-    width: 100%;
+    margin-top: 20px;
+    width: 95%;
     aspect-ratio: 1/1; /* Mantém as imagens quadradas */
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     z-index: 1;
+    border-radius: 10px;
   }
-  
+
   /* Pseudo-elemento para escurecer a imagem */
   .project-card::before {
     content: "";
@@ -35,17 +37,17 @@
     transition: opacity 0.3s ease;
     z-index: 0;
   }
-  
+
   .project-card:hover::before {
     opacity: 1;
   }
-  
+
   .project-card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     z-index: 10;
   }
-  
+
   .card-content {
     position: absolute;
     top: 50%;
@@ -56,19 +58,20 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
+
   }
-  
+
   .project-card:hover .card-content {
     opacity: 1;
   }
-  
+
   /* Responsividade para tablet */
   @media (max-width: 1024px) {
     .projects {
       grid-template-columns: repeat(2, 1fr); /* 2 colunas para tablets */
     }
   }
-  
+
   /* Responsividade para celular */
   @media (max-width: 600px) {
     .projects {
@@ -104,4 +107,3 @@
       background-position: 0% 50%;
     }
   }
-  
