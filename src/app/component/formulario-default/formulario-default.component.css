@@ -1,13 +1,10 @@
 .container{
-  max-width: 2000px;
-  margin: auto;
+  max-width: 1000px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  text-align: center;
-  background-color:#f1651fef;
-  
+  margin-top: 50px;
 }
 
 .container a {
@@ -18,3 +15,11 @@
   text-shadow: 2px 2px 9px rgb(168, 163, 163);
 }
 
+@media(min-width: 1336px) {
+  .container{
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    max-width: 1000px;
+  }
+}

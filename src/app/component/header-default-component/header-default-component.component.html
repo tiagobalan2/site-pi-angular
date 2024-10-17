@@ -12,20 +12,20 @@
     <div class="nav-list">
       <ul>
         <li class="nav-item">
-          <a class="na-link" href="http://localhost:4200/inicial">Início</a>
+          <a class="na-link" [routerLink]="['/inicial']">Início</a>
         </li>
 
         <li class="nav-item">
-          <a class="na-link" href="http://localhost:4200/explicacao"
+          <a class="na-link" [routerLink]="['/explicacao']"
             >Explicação do curso</a
           >
         </li>
 
         <li class="nav-item">
-          <a class="na-link" href="http://localhost:4200/mural">Mural</a>
+          <a class="na-link" [routerLink]="['/mural']">Mural</a>
         </li>
         <li class="nav-item">
-          <a class="na-link" href="http://localhost:4200/contato">Contato</a>
+          <a class="na-link" [routerLink]="['/contato']">Contato</a>
         </li>
       </ul>
     </div>
@@ -48,21 +48,19 @@
   <div class="mobile-menu" [class.open]="isMenuOpen">
     <ul class="ul-open">
       <li class="nav-item">
-        <a class="na-link" href="http://localhost:4200/quem-somos"
-          >Quem somos</a
+        <a class="na-link" [routerLink]="['/inicial']">Inicial</a>
+      </li>
+      <li class="nav-item">
+        <a class="na-link" [routerLink]="['/explicacao']"
+          >Explicação do curso</a
         >
       </li>
+
       <li class="nav-item">
-        <a class="na-link" href="http://localhost:4200/turmas">Turmas Atuais</a>
+        <a class="na-link" [routerLink]="['/mural']">Mural</a>
       </li>
       <li class="nav-item">
-        <a class="na-link" href="http://localhost:4200/mural">Feedback</a>
-      </li>
-      <li class="nav-item">
-        <a class="na-link" href="http://localhost:4200/mural">Mural</a>
-      </li>
-      <li class="nav-item">
-        <a class="na-link" href="http://localhost:4200/contato">Contato</a>
+        <a class="na-link" [routerLink]="['/contato']">Contato</a>
       </li>
     </ul>
   </div>
