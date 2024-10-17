@@ -9,6 +9,13 @@ h1{
   flex-direction: column;
   width: 100%;
 }
+
+app-header-default-component{
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+}
+
 app-painel-avisos, div-mural-atividades{
   width: 95%;
   max-width: 2000px;
@@ -80,6 +87,7 @@ app-painel-avisos, div-mural-atividades{
 .desPensamento{
   margin: auto;
   display: flex;
+
 }
 
 @media(max-width: 1024px) {

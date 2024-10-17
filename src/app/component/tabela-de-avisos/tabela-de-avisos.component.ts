@@ -22,9 +22,12 @@ export class TabelaDeAvisosComponent implements OnInit{
   ngOnInit(): void {
     this.avisoService.getAllAvisos().subscribe({
       next: (data) => {
+        console.log(data)
         this.avisos = data;  // Atribui os dados dos usuários à variável
       },
       error: (err) => {
+        console.log("teste2")
+
         console.error('Erro ao exibir os avisos', err);  // Log de erro
       }
     });

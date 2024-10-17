@@ -7,15 +7,10 @@
   imageSrc="../../../assets/pensamento4.jpg"
   altText="Descrição da imagem"
 ></app-retangulo-vermelho>
-
-<h2 style="text-align: center; font-size: 30px; margin-top: 70px">
-  Galeria de fotos
-</h2>
-<app-container-fotos></app-container-fotos>
 <div class="desPensamento">
   <app-texto-img-default
     titulo="Pensamento Computacional"
-    p="É um curso oferecido pela
+    p ="É um curso oferecido pela
         UniFil para os alunos do
         ensino médio que abrange as
         escolas públicas e privadas.
@@ -24,14 +19,24 @@
   >
   </app-texto-img-default>
 
-  <app-texto-img-default
-    p="O Curso de Informática da UNIFIL é uma oportunidade única para alunos do ensino médio das escolas públicas de Londrina. Totalmente gratuito, o curso oferece um aprendizado prático e teórico em HTML, CSS, programação em bloco e JavaScript, preparando os estudantes para o mundo digital."
+  <app-texto-img-default class="segundo-paragrafo"
+    p="O Curso pensamento Computacional da UNIFIL é uma oportunidade única para alunos do ensino médio das escolas públicas de Londrina. Totalmente gratuito, o curso oferece um aprendizado prático e teórico em HTML, CSS, programação em bloco e JavaScript, preparando os estudantes para o mundo digital."
+
   >
+
   </app-texto-img-default>
+
 </div>
 
+<h2 style="text-align: center; font-size: 30px; margin-top: 70px">
+  Galeria de fotos
+</h2>
+
+<app-container-fotos></app-container-fotos>
+
+
 <h2 style="text-align: center; font-size: 30px; margin-top: 100px">
-  Horários do curso
+  Professores de curso
 </h2>
 <app-table-default-component></app-table-default-component>
 
@@ -41,6 +46,9 @@
 <div class="flex-meio-a-meio">
   <div class="container1">
     <app-calendario titulo="Calendario de eventos"></app-calendario>
+  </div>
+  <div class="constainerAviso">
+    <app-tabela-de-avisos></app-tabela-de-avisos>
   </div>
   <div class="container2">
     <app-acesso-site-unifil

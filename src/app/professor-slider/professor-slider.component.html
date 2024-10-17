@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="slider" [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'">
+      <div class="slide" *ngFor="let professor of professores">
+        <img [src]="professor.image" alt="Professor de {{professor.nome}}">
+        <div class="description">
+          <h3>{{professor.nome}}</h3>
+          <p>{{professor.descricao}}</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Botões de Navegação -->
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+  </div>
+  
+  

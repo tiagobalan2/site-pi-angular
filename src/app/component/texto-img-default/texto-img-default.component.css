@@ -44,7 +44,7 @@
     opacity: 0;
     margin-bottom: 20px;
     color: black;
-    animation: fadeIn 6s ease forwards;
+    animation: fadeIn 5s ease forwards;
     
 }
 
@@ -58,8 +58,9 @@
 .texto p{
     font-size: 20px;
     text-align: justify;
-  
+ 
 }
+
 
 
 
