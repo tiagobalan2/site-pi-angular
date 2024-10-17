@@ -5,14 +5,17 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: orange;
     border-radius: 10px;
     margin: 30px auto;
     padding: 20px;
     flex-wrap: wrap; /* Permite quebra de linha em telas menores */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden; /* Garante que o conteúdo permaneça dentro do contêiner */
+    
 }
+
+
 
 .prof {
     flex: 1 1 200px; /* Flex-grow, flex-shrink, e largura mínima */
@@ -36,10 +39,25 @@ img {
 .descricao {
     flex: 2 1 300px; /* Ajusta a proporção da descrição */
     padding: 12px;
-    text-align: center;
+    text-align: justify;
     word-wrap: break-word; /* Quebra palavras longas para evitar overflow */
     overflow: hidden; /* Garante que o texto permaneça dentro do contêiner */
+    opacity: 0;
+    animation: fadeIn 18s forwards; ;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Começa invisível */
+    }
+    to {
+      opacity: 1; /* Termina visível */
+    }
+  }
+
+.fade-in {
+    animation: fadeIn 18s forwards; 
+  }
 
 @media (max-width: 768px) {
     .container {
