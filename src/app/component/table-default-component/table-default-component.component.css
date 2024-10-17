@@ -6,7 +6,9 @@
     margin-top: 50px;
     max-width: 1225px;
     box-shadow: 1px 1px 8px  black;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
 }
 
 table {
@@ -36,6 +38,10 @@ tr:hover {
     .table-container {
         padding: 10px;
         overflow-x: auto; /* Permite rolagem horizontal para telas menores */
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        
     }
 
     table {

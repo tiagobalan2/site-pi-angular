@@ -1,6 +1,8 @@
 .container {
-    max-width: 75%;
+    max-width: 80%;
     display: flex;
+    height: auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
     background-color: white;
@@ -42,7 +44,7 @@ img {
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        max-width: 90%; /* Ajusta a largura máxima para telas menores */
+        max-width: 80%; /* Ajusta a largura máxima para telas menores */
     }
 
     .prof, .descricao {

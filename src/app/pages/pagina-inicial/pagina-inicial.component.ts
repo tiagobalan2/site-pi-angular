@@ -16,6 +16,7 @@ import { ContainerFotosComponent } from '../../component/container-fotos/contain
 import { TableDefaultComponentComponent } from '../../component/table-default-component/table-default-component.component';
 import { ExplicacaoComponent } from '../explicacao/explicacao.component';
 import { ContainerCardsDefaultComponent } from '../../component/container-cards-default/container-cards-default.component';
+import { DepoimentosProfessoresDefaultComponent } from '../../component/depoimentos-professores-default/depoimentos-professores-default.component';
 
 @Component({
   selector: 'app-pagina-inicial',
@@ -36,7 +37,8 @@ import { ContainerCardsDefaultComponent } from '../../component/container-cards-
     TabelaDeAvisosComponent,
     ContainerFotosComponent,
     TableDefaultComponentComponent,
-    ContainerCardsDefaultComponent
+    ContainerCardsDefaultComponent,
+    DepoimentosProfessoresDefaultComponent
     
   ],
   templateUrl: './pagina-inicial.component.html',

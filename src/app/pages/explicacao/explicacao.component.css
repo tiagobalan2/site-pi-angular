@@ -32,8 +32,15 @@ h2{
     overflow: hidden; 
     transition: transform 0.3s ease;
     margin-top: 98px;
+    
 }
 
 .container-monitores:hover{
     transform: translateY(-10px);
+}
+
+@media(max-width: 768px) {
+    .container-monitores{
+      margin: 30px;
+    }
 }
