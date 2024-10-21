@@ -11,6 +11,8 @@ export class CardDepoimentoProfComponent {
 
   @Input() nomeProf : string = "";
   @Input() descricao : string = "";
+  @Input() descricao2 : string ="";
+  @Input() descricao3 : string ="";
   @Input() imagemSrc : string = "";
 
 }

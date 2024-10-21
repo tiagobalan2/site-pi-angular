@@ -75,3 +75,7 @@
         padding: 0; /* Adjust padding if necessary */
     }
 }
+
+p{
+    margin-bottom: 1em;
+  }
