@@ -1,0 +1,18 @@
+.depoimentos-monitores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .depoimento-container {
+    margin: 0 20px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  

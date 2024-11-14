@@ -1,0 +1,12 @@
+<div class="depoimentos-monitores">
+    <button (click)="depoimentoAnterior()">&#10094;</button>
+    
+    <div class="depoimento-container">
+      <p><strong>{{ depoimentos[depoimentoAtual].monitor }}</strong></p>
+      <p>{{ depoimentos[depoimentoAtual].texto }}</p>
+      <p><em>({{ depoimentos[depoimentoAtual].ano }})</em></p>
+    </div>
+  
+    <button (click)="proximoDepoimento()">&#10095;</button>
+  </div>
+  
