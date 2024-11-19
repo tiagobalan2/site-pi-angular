@@ -41,8 +41,7 @@ import { ConjuntoFeedbackDefaultComponent } from '../../component/conjunto-feedb
     ContainerFotosComponent,
     TableDefaultComponentComponent,
     ContainerCardsDefaultComponent,
-    DepoimentosProfessoresDefaultComponent
-    
+    DepoimentosProfessoresDefaultComponent,
   ],
   templateUrl: './pagina-inicial.component.html',
   styleUrl: './pagina-inicial.component.css'
